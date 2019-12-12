@@ -19,5 +19,12 @@ export class FileListComponent implements OnInit {
 
   public remove(fileName: string):  void {
     this.fileService.remove(fileName);
+  }
+
+  public demo(): void {
+    console.log("test");
   }  
+
+  ngOnInit() {
+  }
 }
